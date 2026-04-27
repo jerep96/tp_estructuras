@@ -100,25 +100,3 @@ print(f"Capacidad total de la cadena: {total_capacidad_cadena} huéspedes")
 print(
     f"Ciudad con más habitaciones : {ciudad_max_habitaciones} ({max_habitaciones} habitaciones)")
 print("=" * 50)
-
-"""
-Reflexión grupal:
-------------------
-Con este ejercicio aprendimos a resolver un problema real usando únicamente
-variables simples, bucles for/while y condicionales if/else, prescindiendo
-de listas u otras estructuras avanzadas.
-
-Uno de los puntos más importantes fue el uso de la variable bandera para
-inicializar el máximo de habitaciones con el primer valor real ingresado
-por el usuario, en lugar de asumir un valor arbitrario como 0. Esto hace
-que el programa sea correcto incluso si todos los valores son muy pequeños
-o muy grandes.
-
-También practicamos la validación de datos de entrada con bucles while,
-lo que nos enseñó a pensar en los posibles errores que puede cometer el
-usuario y cómo proteger el programa ante ellos.
-
-Finalmente, el trabajo grupal nos permitió dividir el análisis del problema
-en partes más pequeñas —ingreso, validación, cálculo y resultados— y
-resolverlas de manera ordenada antes de integrarlas en un solo programa.
-"""
